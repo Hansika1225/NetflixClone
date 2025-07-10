@@ -1,0 +1,62 @@
+/* Overall card style */
+.movie-card {
+  background-color: #1c1c1c;
+  color: white;
+  width: 250px;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(229, 9, 20, 0.4);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+/* Movie image */
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Movie title */
+.movie-card h2 {
+  margin: 0.8rem 0 0.3rem;
+  font-size: 1.4rem;
+  color: #e50914;
+}
+
+/* Info headings */
+.movie-card h3 {
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
+  font-weight: 400;
+}
+
+/* Buttons */
+.movie-card button {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.85rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.movie-card button:hover {
+  background-color: #f40612;
+}
+
+.movieList{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}

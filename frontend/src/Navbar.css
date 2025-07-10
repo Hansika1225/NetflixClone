@@ -1,0 +1,80 @@
+/* Navbar container */
+.navbar {
+  background-color: #141414;
+  color: white;
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  width: 100px;
+  object-fit: contain;
+}
+
+/* Links */
+#links {
+  display: flex;
+  gap: 1.5rem;
+  flex: 1;
+  justify-content: center;
+}
+
+#links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+#links a:hover {
+  color: #e50914;
+}
+
+/* Buttons */
+#buttons {
+  display: flex;
+  gap: 0.75rem;
+}
+
+#buttons button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+#buttons button:hover {
+  background-color: #f40612;
+}
+
+/* Wrapper for icon + badge */
+.icon-button {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Style the icon button */
+.icon-button button {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+}
+#buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
